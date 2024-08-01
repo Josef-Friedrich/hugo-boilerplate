@@ -1,11 +1,11 @@
 build:
-  hugo
+	hugo
 
 new:
-  hugo new site newsite
-  hugo new theme newtheme
+	hugo new site newsite
+	hugo new theme newtheme
 
 serve:
-  hugo server --buildDrafts
+	hugo server --buildDrafts
 
 .PHONY: build new serve
